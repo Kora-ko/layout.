@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> First Layout </title>
+    <style>
+        body {
+            background-color: gray;
+            background-image: url(coffee_image\ bg.jpg);
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-repeat: repeat-x;
+        }
+
+
+        /*This .is.header.style*/
+        header {
+
+            background-size: cover;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: medium;
+            color: rgb(80, 148, 187);
+        }
+
+        h1 {
+            font-size: larger;
+
+
+        }
+
+
+        header img {
+            height: 200px;
+            width: 150px;
+            border-radius: 50%;
+            border: 5px solid pink;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #ccb276;
+        }
+
+
+        li {
+            float: left;
+        }
+
+
+        li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: rgb(109, 195, 227);
+        }
+
+
+
+
+        /*This .is .aside .style*/
+        aside {
+            height: 700px;
+            width: 300px;
+            float: left;
+            background-image: url(pink\ image\ bg.jpg);
+            background-size: cover;
+            color: #92430e;
+        }
+
+
+
+
+
+        section {
+            height: 700px;
+            width: 100%;
+            background-color: rgb(221, 189, 205);
+
+        }
+
+        section h2 {
+            text-align: center;
+            color: rgb(228, 152, 22);
+        }
+
+        .sectionpara {
+            padding-left: 30%;
+            color: #92430e;
+            text-indent: 40px;
+            line-height: 30px;
+
+        }
+
+        
+
+        footer {
+
+            background-image: url(coffee_image\ bg.jpg);
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <header>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+
+        <h1> Coffee Coffee</h1>
+        <img src="coffee cup.jpg" alt="logo">
+        <pre>When drinking coffee, individuals can experience a range of feelings, primarily due to the effects of caffeine.</pre>
+    </header>
+
+    <aside>
+        <h1>Coffee & Coding</h1>
+
+        <iframe width="300" height="274" src="https://www.youtube.com/embed/ivi2_oZv9i4"
+            title="☕💻 Coffee &amp; Coding: Why Programmers Rely on Caffeine" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    </aside>
+
+    <section>
+
+        <h2>Beneficial & Uses Of Coffee </h2>
+        <div class="sectionpara">
+            <p>Over 1 billion people worldwide drink coffee every day.
+                The US consumes 1.65 billion pounds of coffee every year across a population.
+                Coffee can have several side effects, including increased anxiety, sleep disturbances, and digestive
+                issues, especially when consumed in excess.
+            </p>
+            <h4>Common Side Effect Of Coffee</h4>
+            <ul>
+
+                <li>Increased Blood Pleasure</li>
+                <li>Anxiety & Nervousness</li>
+                <li>Sleep Disturbances</li>
+                <li>Digestive Issues</li>
+                <li>Caffenie Withdrawal</li>
+                <li>Increased Heart Ratte</li>
+                <li>Muscle Tremors</li>
+                <li>Potential Risks During Pregancy</li>
+            </ul>
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card">
+                        <img src="coffee3.jpg" alt="photo" width="520px"  height="310px">
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <p class="card-text">Expresse shot 60ml,   Steamed milk 300ml,   Foamed milk 2ml
+                            </p>
+                            
+                            <a href="https://google.com" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img src="coffee2.jpg" alt="photo" width="520px"  height="310px">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <p class="card-text"> Expresse shot 60ml,   Steamed milk 100ml,   Foamed milk 100ml
+                            </p>
+
+                            <a href="https://google.com" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    
+    <footer>
+        <h2> Design by Kora </h2>
+        <p style="font-size: 20px;"><em>Copyright @</em></p>
+        <a href="mailto:kora@gmail.com">Send Mail</a>
+    </footer>
+</body>
+
+</html>
